@@ -13,7 +13,7 @@ import { useColorScheme } from "@/hooks/useColorScheme";
 export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
-    Poppins: require("../assets/fonts/Poppins-Medium-500.ttf"),
+    SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
   });
 
   if (!loaded) {
